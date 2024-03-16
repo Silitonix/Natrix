@@ -1,11 +1,11 @@
 interface CanvasProp
 {
-  parent?: HTMLElement;
+  parent?: Element;
 }
 
 export class Canvas
 {
-  parent?: HTMLElement;
+  parent?: Element;
   canvas: HTMLCanvasElement;
   context: CanvasRenderingContext2D;
 
