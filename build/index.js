@@ -1,0 +1,1 @@
+class d{parent;canvas;context;constructor(i){if(this.canvas=document.createElement("canvas"),i?.parent)this.parent=i.parent,this.parent.appendChild(this.canvas);if(!this.canvas)throw"Canvas not supported!";const b=this.canvas.getContext("2d");if(!b)throw"Canvas does not support 2D Context";this.context=b}}var u=new d({parent:document.body});

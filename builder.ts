@@ -1,5 +1,5 @@
 Bun.build({
-  entrypoints: [ './source/main.ts' ],
+  entrypoints: [ './source/index.ts' ],
   outdir: "./build",
   minify: true
 });
